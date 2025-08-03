@@ -1,0 +1,71 @@
+.community-form-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  margin-top: 60px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.community-form-container h3 {
+  color: #6a0572;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.community-form-container p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.community-form .form-group {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.community-form .form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.community-form .form-group input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.community-form button[type="submit"] {
+  padding: 15px;
+  background-color: #6a0572;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.community-form button[type="submit"]:hover:not(:disabled) {
+  background-color: #4b0351;
+}
+
+.community-form button[type="submit"]:disabled {
+  background-color: #b3b3b3;
+  cursor: not-allowed;
+}
+
+.status-message {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #6a0572;
+}

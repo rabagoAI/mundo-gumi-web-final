@@ -1,0 +1,71 @@
+import React from 'react';
+import { useParams } from 'react-router-dom';
+import bebeDragonImage from '../assets/images/bebe-dragon-2.png';
+import perritoKawaiImage from '../assets/images/perrito-kawai-2.png';
+import conejitoSaltarin from '../assets/images/conejito-saltarin-2.png'
+
+// Datos completos de los patrones (puedes añadir más detalles aquí)
+const patterns = [
+  { 
+    id: 'bebe-dragon', 
+    name: 'Bebé Dragón', 
+    image: bebeDragonImage, 
+    level: 'Intermedio',
+    description: 'Un adorable bebé dragón amigurumi, ideal para regalar. Requiere puntos básicos y algunas técnicas de unión.',
+    materials: ['Hilo de color verde claro', 'Hilo de color verde oscuro', 'Ojos de seguridad', 'Relleno de fibra', 'Aguja de ganchillo 3.0mm'],
+  },
+
+  { 
+    id: 'perrito-kawai', 
+    name: 'Perrito Kawai', 
+    image: perritoKawaiImage, 
+    level: 'Fácil',
+    description: 'Un adorable perrito estilo kawai. Requiere puntos básicos y algunas técnicas de unión.',
+    materials: ['Hilo de color beige ', 'Hilo de color negro', 'Ojos de seguridad o hilo negro para bordar', 'Relleno de fibra', 'Aguja de ganchillo 3.0mm'],
+  },
+
+  { 
+    id: 'conejito-saltarin', 
+    name: 'Conejito Saltarín', 
+    image: conejitoSaltarin, 
+    level: 'Fácil',
+    description: 'Un adorable conejito amigurumi. Requiere puntos básicos y algunas técnicas de unión.',
+    materials: ['Hilo de color beige o blanco', 'Hilo de color negro', 'Ojos de seguridad', 'Relleno de fibra', 'Aguja de ganchillo de 2.5 mm o 3.0mm'],
+  },
+
+
+  // ... otros patrones aquí
+];
+
+function PatternDetail() {
+  const { id } = useParams(); // Obtenemos el ID de la URL
+  const pattern = patterns.find(p => p.id === id); // Buscamos el patrón por ID
+
+  if (!pattern) {
+    return <h2>Patrón no encontrado.</h2>; // Mensaje si el patrón no existe
+  }
+
+  return (
+    <section className="pattern-detail-page">
+      <div className="pattern-header">
+        <img src={pattern.image} alt={pattern.name} className="pattern-detail-image" />
+        <div className="pattern-info">
+          <h1>{pattern.name}</h1>
+          <p><strong>Nivel:</strong> {pattern.level}</p>
+          <p>{pattern.description}</p>
+          <button className="download-button">Comprar Patrón (PDF)</button>
+        </div>
+      </div>
+      <div className="pattern-materials">
+        <h3>Materiales necesarios</h3>
+        <ul>
+          {pattern.materials.map((material, index) => (
+            <li key={index}>{material}</li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  );
+}
+
+export default PatternDetail;
