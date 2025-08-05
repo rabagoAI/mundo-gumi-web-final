@@ -4,11 +4,13 @@ import './FeaturedPatterns.css';
 import bebeDragonImage from '../assets/images/bebe-dragon.png';
 import perritoKawaiImage from '../assets/images/perrito-kawai.png';
 import conejitoSaltarinImage from '../assets/images/conejito-saltarin.png';
+import luffy from '../assets/images/luffy.png'
 
 const patterns = [
   { id: 'bebe-dragon', name: 'Bebé Dragón', image: bebeDragonImage },
   { id: 'perrito-kawai', name: 'Perrito Kawai', image: perritoKawaiImage }, // Corregido el nombre y la imagen
   { id: 'conejito-saltarin', name: 'Conejito Saltarin', image: conejitoSaltarinImage },
+  { id: 'luffy', name: 'Luffy', image: luffy },
 ];
 
 function FeaturedPatterns() {

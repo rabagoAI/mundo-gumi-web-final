@@ -70,3 +70,9 @@
 .collaborator-link:hover {
   background-color: #4b0351;
 }
+
+@media (max-width: 768px) {
+  .collaborator-patterns-grid {
+    grid-template-columns: 1fr;
+  }
+}

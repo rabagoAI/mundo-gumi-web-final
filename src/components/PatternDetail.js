@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import bebeDragonImage from '../assets/images/bebe-dragon-2.png';
 import perritoKawaiImage from '../assets/images/perrito-kawai-2.png';
 import conejitoSaltarin from '../assets/images/conejito-saltarin-2.png'
+import luffyChibi from '../assets/images/luffy-2.png'
 
 // Datos completos de los patrones (puedes añadir más detalles aquí)
 const patterns = [
@@ -32,6 +33,23 @@ const patterns = [
     description: 'Un adorable conejito amigurumi. Requiere puntos básicos y algunas técnicas de unión.',
     materials: ['Hilo de color beige o blanco', 'Hilo de color negro', 'Ojos de seguridad', 'Relleno de fibra', 'Aguja de ganchillo de 2.5 mm o 3.0mm'],
   },
+
+  {
+  id: 'luffy',
+  name: 'Luffy Chibi',
+  image: luffyChibi,
+  level: 'Avanzado',
+  description: 'Amigurumi del icónico personaje Luffy de One Piece en versión chibi. Requiere experiencia en cambios de color, bordado de detalles y ensamblaje de múltiples piezas.',
+  materials: [
+    'Hilo de algodón en color piel, rojo, azul, amarillo, negro y blanco',
+    'Ojos de seguridad (8-10 mm)',
+    'Relleno de fibra',
+    'Aguja de ganchillo 2.5 mm o 3.0 mm',
+    'Aguja lanera para coser',
+    'Marcador de vueltas',
+    'Tijeras'
+  ]
+}
 
 
   // ... otros patrones aquí

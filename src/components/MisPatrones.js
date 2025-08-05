@@ -3,12 +3,14 @@ import { Link } from 'react-router-dom';
 import bebeDragonImage from '../assets/images/bebe-dragon.png'; // Importa la imagen real
 import perritoKawai from '../assets/images/perrito-kawai.png';
 import conejitoSaltarin from '../assets/images/conejito-saltarin.png'
+import luffy from '../assets/images/luffy.png'
 
 // Creamos la lista de patrones aquí. Podrías moverla a un archivo de datos.
 const patterns = [
   { id: 'bebe-dragon', name: 'Bebé Dragón', image: bebeDragonImage, level: 'Intermedio' },
   { id: 'perrito-kawai', name: 'Perrito Kawai', image: perritoKawai, level: 'Fácil' },
   { id: 'conejito-saltarin', name: 'Conejito Saltarin', image: conejitoSaltarin, level: 'Fácil' },
+  { id: 'luffy', name: 'Luffy', image: luffy, level: 'Avanzado' },
 ];
 
 function MisPatrones() {
