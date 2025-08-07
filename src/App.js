@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // Importa los componentes principales de la aplicación
 import Header from './components/Header';
 import Footer from './components/Footer';
+import About from './pages/About';
 
 // Importa los componentes de las páginas
 import Home from './components/Home';
@@ -29,6 +30,7 @@ function App() {
             <Route path="/comunidad" element={<Comunidad />} />
             <Route path="/patrones/:id" element={<PatternDetail />} /> {/* Ruta dinámica */}
             <Route path="/contacto" element={<Contacto />} /> {/* Ruta para Contacto */}
+            <Route path="/sobre-nosotros" element={<About />} />
           </Routes>
         </main>
         <Footer />

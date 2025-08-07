@@ -1,15 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './FeaturedPatterns.css';
+import miercolesAddams from '../assets/images/miercoles-adams.png';
 import pikachu from '../assets/images/pikachu.png';
-import luffy from '../assets/images/luffy.png'
-import miercolesAddams from '../assets/images/miercoles-adams.png'
+import stitch from '../assets/images/stitch.png';
+
 
 const patterns = [
   
-  { id: 'pikachu', name: 'Pikachu', image: pikachu },
-  { id: 'luffy', name: 'Luffy', image: luffy },
   { id: 'miercoles-addams', name: 'Miércoles Addams', image: miercolesAddams },
+  { id: 'pikachu', name: 'Pikachu', image: pikachu },
+  { id: 'stitch', name: 'Stich', image: stitch },
+
 ];
 
 function FeaturedPatterns() {
