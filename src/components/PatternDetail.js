@@ -3,7 +3,9 @@ import { useParams } from 'react-router-dom';
 import bebeDragonImage from '../assets/images/bebe-dragon-2.png';
 import perritoKawaiImage from '../assets/images/perrito-kawai-2.png';
 import conejitoSaltarin from '../assets/images/conejito-saltarin-2.png'
-import luffyChibi from '../assets/images/luffy-2.png'
+import luffyChibi from '../assets/images/luffy-2.png';
+import miercolesAddamsImage from '../assets/images/miercoles-adams-2.png';
+import pikachuImage from '../assets/images/pikachu-2.png';
 
 // Datos completos de los patrones (puedes añadir más detalles aquí)
 const patterns = [
@@ -49,7 +51,49 @@ const patterns = [
     'Marcador de vueltas',
     'Tijeras'
   ]
+},
+
+{
+  id: 'miercoles-addams',
+  name: 'Miércoles Addams',
+  image: miercolesAddamsImage,
+  level: 'Intermedio',
+  description: 'Amigurumi inspirado en Miércoles Addams en versión chibi. Ideal para fans de la serie. Utiliza ojos de fieltro y requiere ensamblaje de varias piezas.',
+  materials: [
+    'Hilo de color negro',
+    'Hilo de color blanco',
+    'Hilo color piel',
+    'Fieltro blanco y negro para los ojos',
+    'Relleno de fibra',
+    'Aguja de ganchillo 2.5 mm o 3.0 mm',
+    'Pegamento textil o silicona caliente',
+    'Aguja lanera',
+    'Tijeras',
+    'Marcador de vueltas'
+  ]
+},
+
+{
+  id: 'pikachu',
+  name: 'Pikachu',
+  image: pikachuImage,
+  level: 'Intermedio',
+  description: 'Un adorable Pikachu tejido a crochet con su clásica cola en forma de rayo y mejillas rojas. Ideal para fans de Pokémon.',
+  materials: [
+    'Hilo de color amarillo',
+    'Hilo de color negro',
+    'Hilo de color rojo',
+    'Hilo de color marrón claro y oscuro',
+    'Ojos de seguridad de 10-12 mm',
+    'Relleno de fibra sintética',
+    'Aguja de ganchillo 2.5 mm o 3.0 mm',
+    'Aguja lanera',
+    'Fieltro blanco (opcional)'
+  ]
 }
+
+
+
 
 
   // ... otros patrones aquí

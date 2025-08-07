@@ -4,6 +4,8 @@ import bebeDragonImage from '../assets/images/bebe-dragon.png'; // Importa la im
 import perritoKawai from '../assets/images/perrito-kawai.png';
 import conejitoSaltarin from '../assets/images/conejito-saltarin.png'
 import luffy from '../assets/images/luffy.png'
+import miercolesAddams from '../assets/images/miercoles-adams.png'
+import pikachu from '../assets/images/pikachu.png'
 
 // Creamos la lista de patrones aquí. Podrías moverla a un archivo de datos.
 const patterns = [
@@ -11,6 +13,8 @@ const patterns = [
   { id: 'perrito-kawai', name: 'Perrito Kawai', image: perritoKawai, level: 'Fácil' },
   { id: 'conejito-saltarin', name: 'Conejito Saltarin', image: conejitoSaltarin, level: 'Fácil' },
   { id: 'luffy', name: 'Luffy', image: luffy, level: 'Avanzado' },
+  { id: 'miercoles-addams', name: 'Miércoles Addams', image: miercolesAddams, level: 'Intermedio' },
+  { id: 'pikachu', name: 'Pikachu', image: pikachu, level: 'Intermedio' },
 ];
 
 function MisPatrones() {

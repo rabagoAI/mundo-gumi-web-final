@@ -8,7 +8,7 @@ function HeroSection() {
     <section className="hero-section" style={{ backgroundImage: `url(${heroImage})` }}>
       <div className="hero-content">
         <h1>Crea magia con tus manos</h1>
-        <p>Patrones exclusivos generados con inteligencia artificial y la mejor comunidad para amantes del ganchillo.</p>
+        <p>Patrones exclusivos y la mejor comunidad para amantes del ganchillo.</p>
         <Link to="/patrones-mundo-gumi" className="cta-button">
           Explora mis patrones
         </Link>
