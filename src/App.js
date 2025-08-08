@@ -8,7 +8,7 @@ import About from './pages/About';
 
 // Importa los componentes de las páginas
 import Home from './components/Home';
-import MisPatrones from './components/MisPatrones';
+import PatronesIA from './components/PatronesIA';
 import Colaboradores from './components/Colaboradores';
 import Tutoriales from './components/Tutoriales';
 import Comunidad from './components/Comunidad';
@@ -24,7 +24,7 @@ function App() {
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/patrones-mundo-gumi" element={<MisPatrones />} />
+            <Route path="/patrones-mundo-gumi" element={<PatronesIA />} />
             <Route path="/patrones-colaboradores" element={<Colaboradores />} />
             <Route path="/tutoriales" element={<Tutoriales />} />
             <Route path="/comunidad" element={<Comunidad />} />

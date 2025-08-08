@@ -2,11 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import bebeDragonImage from '../assets/images/bebe-dragon.png'; // Importa la imagen real
 import perritoKawai from '../assets/images/perrito-kawai.png';
-import conejitoSaltarin from '../assets/images/conejito-saltarin.png'
-import luffy from '../assets/images/luffy.png'
-import miercolesAddams from '../assets/images/miercoles-adams.png'
-import pikachu from '../assets/images/pikachu.png'
-import stitch from '../assets/images/stitch.png'
+import conejitoSaltarin from '../assets/images/conejito-saltarin.png';
+import luffy from '../assets/images/luffy.png';
+import miercolesAddams from '../assets/images/miercoles-adams.png';
+import pikachu from '../assets/images/pikachu.png';
+import stitch from '../assets/images/stitch.png';
+import koala from '../assets/images/koala.png';
 
 // Creamos la lista de patrones aquí. Podrías moverla a un archivo de datos.
 const patterns = [
@@ -17,12 +18,14 @@ const patterns = [
   { id: 'miercoles-addams', name: 'Miércoles Addams', image: miercolesAddams, level: 'Intermedio' },
   { id: 'pikachu', name: 'Pikachu', image: pikachu, level: 'Intermedio' },
   { id: 'stitch', name: 'Stitch', image: stitch, level: 'Avanzado' },
+  { id: 'koala', name: 'Koala', image: koala, level: 'Intermedio' },
+  
 ];
 
-function MisPatrones() {
+function PatronesIA() {
   return (
     <section className="mis-patrones-page">
-      <h1>Mis Patrones</h1>
+      <h1>Patrones IA</h1>
       <div className="patterns-grid">
         {patterns.map(pattern => (
           <div key={pattern.id} className="pattern-card">
@@ -38,4 +41,4 @@ function MisPatrones() {
   );
 }
 
-export default MisPatrones;
+export default PatronesIA;

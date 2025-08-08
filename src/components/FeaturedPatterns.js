@@ -4,11 +4,12 @@ import './FeaturedPatterns.css';
 import miercolesAddams from '../assets/images/miercoles-adams.png';
 import pikachu from '../assets/images/pikachu.png';
 import stitch from '../assets/images/stitch.png';
+import koala from '../assets/images/koala.png';
 
 
 const patterns = [
   
-  { id: 'miercoles-addams', name: 'Miércoles Addams', image: miercolesAddams },
+  { id: 'koala', name: 'Koala', image: koala },
   { id: 'pikachu', name: 'Pikachu', image: pikachu },
   { id: 'stitch', name: 'Stich', image: stitch },
 

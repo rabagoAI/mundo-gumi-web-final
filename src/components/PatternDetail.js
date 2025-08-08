@@ -7,6 +7,7 @@ import luffyChibi from '../assets/images/luffy-2.png';
 import miercolesAddamsImage from '../assets/images/miercoles-adams-2.png';
 import pikachuImage from '../assets/images/pikachu-2.png';
 import stitchImage from '../assets/images/stitch-2.png';
+import koalaImage from '../assets/images/koala-2.png';
 
 // Datos completos de los patrones (puedes añadir más detalles aquí)
 const patterns = [
@@ -111,6 +112,23 @@ const patterns = [
     'Fieltro (opcional para ojos y detalles)'
   ],
    pdfUrl: 'url-a-tu-pdf-avanzado-2.pdf',
+},
+
+{
+  id: 'koala',
+  name: 'Koala',
+  image: koalaImage,
+  level: 'Intermedio',
+  description: 'Un tierno koala tejido a crochet con detalles en orejas y hocico. Ideal para quienes ya dominan las técnicas básicas y quieren practicar el ensamblaje de piezas pequeñas.',
+  materials: [
+    'Hilo de algodón gris',
+    'Hilo de algodón blanco',
+    'Hilo negro (bordado de nariz y ojos si no se usan de seguridad)',
+    'Relleno de fibra sintética',
+    'Aguja de ganchillo 3.0mm',
+    'Aguja lanera',
+    'Ojos de seguridad de 10 mm'
+  ]
 }
 
 
