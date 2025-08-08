@@ -23,40 +23,37 @@
   margin: 0 auto;
 }
 
-.collaborator-card {
+.colaborador-card {
   background-color: #fff;
+  border: 1px solid #ddd;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  text-align: center;
+  overflow: hidden;
   transition: transform 0.3s ease;
 }
 
-.collaborator-card:hover {
+.colaborador-card:hover {
   transform: translateY(-5px);
 }
 
-.collaborator-card img {
+.colaborador-image {
   width: 100%;
-  height: 250px;
+  height: 280px;
   object-fit: cover;
-  border-radius: 8px;
-  margin-bottom: 15px;
+  border-radius: 8px 8px 0 0;
 }
 
-.collaborator-card h3 {
-  font-size: 1.5rem;
-  color: #6a0572;
+.colaborador-info {
+  padding: 15px;
+  text-align: center;
+}
+
+.colaborador-info h3 {
   margin-bottom: 5px;
 }
 
-.creator-name {
-  font-style: italic;
-  color: #777;
-  margin-bottom: 15px;
-}
-
-.collaborator-link {
+.pattern-link-button,
+.creator-link-button {
   display: inline-block;
   background-color: #6a0572;
   color: white;
@@ -64,15 +61,32 @@
   border-radius: 5px;
   text-decoration: none;
   font-weight: bold;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin: 5px;
 }
 
-.collaborator-link:hover {
+.pattern-link-button:hover,
+.creator-link-button:hover {
   background-color: #4b0351;
+  transform: scale(1.05);
+}
+
+.creator-link-button {
+  font-style: italic;
+  font-weight: normal;
+  color: #555;
+  background-color: transparent;
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+}
+
+.creator-link-button:hover {
+  color: #6a0572;
+  background-color: #f0f0f0;
 }
 
 @media (max-width: 768px) {
-  .collaborator-patterns-grid {
+  .colaboradores-grid {
     grid-template-columns: 1fr;
   }
 }

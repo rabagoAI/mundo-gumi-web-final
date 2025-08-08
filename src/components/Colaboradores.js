@@ -8,7 +8,6 @@ function Colaboradores() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Conectarse a la colección 'colaboradores' de Firestore
     const unsub = onSnapshot(collection(db, 'colaboradores'), (snapshot) => {
       const colaboradoresData = snapshot.docs.map(doc => ({
         id: doc.id,
@@ -18,7 +17,6 @@ function Colaboradores() {
       setLoading(false);
     });
 
-    // Limpiar la conexión cuando el componente se desmonte
     return () => unsub();
   }, []);
 
@@ -31,18 +29,21 @@ function Colaboradores() {
       <h1>Nuestros Colaboradores</h1>
       <p>
         Un espacio dedicado a los talentosos creadores de la comunidad amigurumi.
-        ¡Haz clic para ver sus perfiles!
       </p>
       <div className="colaboradores-grid">
         {colaboradores.map(colaborador => (
           <div key={colaborador.id} className="colaborador-card">
-            <a href={colaborador.socialMediaLink} target="_blank" rel="noopener noreferrer">
-              <img src={colaborador.imageUrl} alt={colaborador.name} className="colaborador-image" />
-              <div className="colaborador-info">
-                <h3>{colaborador.patternName}</h3>
-                <p>Por: {colaborador.name}</p>
-              </div>
-            </a>
+            <img src={colaborador.imageUrl} alt={colaborador.patternName} className="colaborador-image" />
+            <div className="colaborador-info">
+              <a href={colaborador.patternLink} target="_blank" rel="noopener noreferrer" className="pattern-link-button">
+                {colaborador.patternName}
+              </a>
+              <p>
+                Por: <a href={colaborador.socialMediaLink} target="_blank" rel="noopener noreferrer" className="creator-link-button">
+                        {colaborador.name}
+                     </a>
+              </p>
+            </div>
           </div>
         ))}
         {colaboradores.length === 0 && (

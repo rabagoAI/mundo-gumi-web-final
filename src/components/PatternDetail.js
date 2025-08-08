@@ -99,7 +99,7 @@ const patterns = [
   id: 'stitch',
   name: 'Stitch',
   image: stitchImage,
-  level: 'Difícil',
+  level: 'Avanzado',
   description: 'Una versión detallada del personaje Stitch en amigurumi. Requiere experiencia previa y buen control del ensamblaje de piezas grandes.',
   materials: [
     'Hilo azul oscuro',
@@ -128,7 +128,8 @@ const patterns = [
     'Aguja de ganchillo 3.0mm',
     'Aguja lanera',
     'Ojos de seguridad de 10 mm'
-  ]
+  ],
+  pdfUrl: 'url-a-tu-pdf-intermedio-4.pdf',
 }
 
 
