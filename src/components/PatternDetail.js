@@ -8,6 +8,8 @@ import miercolesAddamsImage from '../assets/images/miercoles-adams-2.png';
 import pikachuImage from '../assets/images/pikachu-2.png';
 import stitchImage from '../assets/images/stitch-2.png';
 import koalaImage from '../assets/images/koala-2.png';
+import supermanImage from '../assets/images/superman-2.png';
+import alienigenaImage from '../assets/images/alienigena-2.png';
 
 // Datos completos de los patrones (puedes añadir más detalles aquí)
 const patterns = [
@@ -130,6 +132,46 @@ const patterns = [
     'Ojos de seguridad de 10 mm'
   ],
   pdfUrl: 'url-a-tu-pdf-intermedio-4.pdf',
+},
+
+{
+  id: 'superman-amigurumi',
+  name: 'Superman',
+  image: supermanImage,
+  level: 'Intermedio',
+  description: 'Amigurumi de Superman con capa y emblema en el pecho. Requiere ensamblaje de piezas, cambios de color y algo de bordado para el emblema.',
+  materials: [
+    'Hilo color piel (para la cabeza)',
+    'Hilo negro para el cabello',
+    'Hilo azul (traje)',
+    'Hilo rojo (capa y botas)',
+    'Hilo amarillo (cinturón / fondo del emblema)',
+    'Ojos de seguridad 8-10 mm o fieltro',
+    'Relleno de fibra sintética',
+    'Aguja de ganchillo 2.5 mm o 3.0 mm',
+    'Aguja lanera y tijeras',
+    'Fieltro rojo/amarillo (opcional para el emblema)'
+  ],
+   pdfUrl: 'url-a-tu-pdf-intermedio-5.pdf',
+},
+
+{
+  id: 'alienigena',
+  name: 'Alienígena',
+  image: alienigenaImage,
+  level: 'Intermedio',
+  description: 'Amigurumi de alienígena verde con antenas, orejas grandes y cuerpo en dos colores. Requiere cambios de color, ensamblaje de piezas y colocación de ojos de seguridad.',
+  materials: [
+    'Hilo verde (cabeza, antenas, orejas, brazos, piernas)',
+    'Hilo azul (cintura y parte inferior del cuerpo)',
+    'Hilo negro (boca y detalles bordados)',
+    'Hilo blanco (parte blanca de los ojos)',
+    'Ojos de seguridad grandes (12-14 mm)',
+    'Relleno de fibra sintética',
+    'Aguja de ganchillo 2.5 mm o 3.0 mm',
+    'Aguja lanera y tijeras'
+  ],
+  pdfUrl: 'url-a-tu-pdf-intermedio-6.pdf',
 }
 
 

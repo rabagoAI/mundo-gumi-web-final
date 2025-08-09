@@ -1,41 +1,22 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
+import { Link } from 'react-router-dom';
 import './CommunityShowcase.css';
-import { collection, getDocs } from 'firebase/firestore';
-import { db } from '../firebase';
 
 function CommunityShowcase() {
-  const [communityPhotos, setCommunityPhotos] = useState([]);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    const getCommunityPhotos = async () => {
-      setLoading(true);
-      const comunidadRef = collection(db, "comunidad");
-      const comunidadSnapshot = await getDocs(comunidadRef);
-      const photosList = comunidadSnapshot.docs.map(doc => ({
-        id: doc.id,
-        ...doc.data()
-      }));
-      setCommunityPhotos(photosList);
-      setLoading(false);
-    };
-    getCommunityPhotos();
-  }, []);
-
-  if (loading) {
-    return <div className="community-showcase-container">Cargando fotos de la comunidad...</div>;
-  }
-
   return (
-    <section className="community-showcase-container">
-      <h2>Muestra de la Comunidad</h2>
-      <div className="community-showcase-grid">
-        {communityPhotos.map((photo) => (
-          <div key={photo.id} className="community-card">
-            <img src={photo.imageURL} alt={photo.name} />
-            <p>{photo.name}</p>
-          </div>
-        ))}
+    <section className="community-showcase">
+      <h2>Muestra de la comunidad</h2>
+      <p>
+        En este espacio celebramos el talento y la creatividad de nuestra comunidad de **creadores de amigurumi**. Aquí encontrarás patrones únicos y originales que te inspirarán a crear tu próximo proyecto de crochet. Descubre diseños increíbles como el **pollito graduación** de nuestra colaboradora **salmarina.esp** y muchos más.
+      </p>
+      
+      <div className="community-buttons">
+        <Link to="/tutoriales" className="btn-aprende">
+          Aprende con nosotros
+        </Link>
+        <Link to="/patrones-colaboradores" className="btn-creadores">
+          Conoce a otros creadores
+        </Link>
       </div>
     </section>
   );

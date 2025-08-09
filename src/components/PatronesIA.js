@@ -8,6 +8,8 @@ import miercolesAddams from '../assets/images/miercoles-adams.png';
 import pikachu from '../assets/images/pikachu.png';
 import stitch from '../assets/images/stitch.png';
 import koala from '../assets/images/koala.png';
+import superman from '../assets/images/superman.png';
+import alienigena from '../assets/images/alienigena-2.png';
 
 // Creamos la lista de patrones aquí. Podrías moverla a un archivo de datos.
 const patterns = [
@@ -19,6 +21,8 @@ const patterns = [
   { id: 'pikachu', name: 'Pikachu', image: pikachu, level: 'Intermedio' },
   { id: 'stitch', name: 'Stitch', image: stitch, level: 'Avanzado' },
   { id: 'koala', name: 'Koala', image: koala, level: 'Intermedio' },
+  { id: 'superman-amigurumi', name: 'Superman', image: superman, level: 'Intermedio' },
+  { id: 'alienigena', name: 'Alienígena', image: alienigena, level: 'Intermedio' },
   
 ];
 
