@@ -10,6 +10,7 @@ import stitchImage from '../assets/images/stitch-2.png';
 import koalaImage from '../assets/images/koala-2.png';
 import supermanImage from '../assets/images/superman-2.png';
 import alienigenaImage from '../assets/images/alienigena-2.png';
+import ositoKawaii from '../assets/images/osito-kawaii-2.png';
 
 // Datos completos de los patrones (puedes añadir más detalles aquí)
 const patterns = [
@@ -172,7 +173,25 @@ const patterns = [
     'Aguja lanera y tijeras'
   ],
   pdfUrl: 'url-a-tu-pdf-intermedio-6.pdf',
-}
+},
+
+{
+    id: 'osito-kawaii',
+    name: 'Osito Kawaii Amarillo',
+    image: ositoKawaii,
+    level: 'Fácil',
+    description: 'Amigurumi de osito kawaii en color amarillo con detalles en blanco y rosa. Ideal para principiantes, ya que utiliza puntos básicos y pocas piezas para ensamblar.',
+    materials: [
+      'Hilo de algodón amarillo, blanco y rosa claro',
+      'Ojos de seguridad (8 mm)',
+      'Relleno de fibra',
+      'Aguja de ganchillo 2.5 mm o 3.0 mm',
+      'Aguja lanera para coser',
+      'Marcador de vueltas',
+      'Tijeras'
+    ],
+    pdfUrl: 'osito-kawaii.pdf',
+},
 
 
 ];
