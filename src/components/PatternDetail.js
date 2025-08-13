@@ -11,6 +11,7 @@ import koalaImage from '../assets/images/koala-2.png';
 import supermanImage from '../assets/images/superman-2.png';
 import alienigenaImage from '../assets/images/alienigena-2.png';
 import ositoKawaii from '../assets/images/osito-kawaii-2.png';
+import lilo from '../assets/images/lilo-2.png';
 
 // Datos completos de los patrones (puedes añadir más detalles aquí)
 const patterns = [
@@ -191,6 +192,25 @@ const patterns = [
       'Tijeras'
     ],
     pdfUrl: 'osito-kawaii.pdf',
+},
+
+{
+    id: 'lilo',
+    name: 'Lilo',
+    image: lilo, // Imagen importada en tu proyecto
+    level: 'Intermedio',
+    description: 'Amigurumi inspirado en Lilo, con vestido multicolor, cabello con coletas y flor en el lateral. Ideal para practicar cambios de color y montaje de piezas.',
+    materials: [
+      'Hilo de algodón color piel, negro, rojo, verde, amarillo y turquesa',
+      'Hilo rosa para la flor',
+      'Ojos de seguridad de 12 mm o fieltro marrón/blanco/negro',
+      'Relleno de fibra sintética',
+      'Aguja de ganchillo 2.5 mm o 3.0 mm',
+      'Aguja lanera y tijeras',
+      'Marcador de vueltas',
+      'Pegamento textil (opcional)'
+    ],
+    pdfUrl: 'url-a-tu-pdf-intermedio-7.pdf', // Cambia esta URL por el enlace a tu PDF
 },
 
 

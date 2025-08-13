@@ -5,7 +5,7 @@ import { db } from '../firebase';
 import './EntrevistaIndividual.css';
 
 function EntrevistaIndividual() {
-  const { id } = useParams(); // Obtiene el ID de la entrevista de la URL
+  const { id } = useParams();
   const [entrevista, setEntrevista] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -36,7 +36,7 @@ function EntrevistaIndividual() {
     };
 
     getEntrevista();
-  }, [id]); // El efecto se ejecuta cada vez que el ID de la URL cambia
+  }, [id]);
 
   if (loading) {
     return <div className="entrevista-cargando">Cargando entrevista...</div>;
@@ -49,8 +49,7 @@ function EntrevistaIndividual() {
   if (!entrevista) {
     return <div className="entrevista-error">La entrevista no está disponible.</div>;
   }
-  
-  // Aquí puedes renderizar el contenido completo de la entrevista
+
   return (
     <section className="entrevista-individual-page">
       <img src={entrevista.fotoUrl} alt={entrevista.nombreCreador} className="entrevista-individual-image" />
@@ -62,7 +61,6 @@ function EntrevistaIndividual() {
         <p className="entrevista-pregunta">¿Recuerdas cuál fue tu primera creación?</p>
         <p className="entrevista-respuesta">{entrevista.respuesta2}</p>
         
-        {/* Añade el resto de preguntas y respuestas aquí */}
         <p className="entrevista-pregunta">¿Qué te impulsó a empezar a compartir tus creaciones y patrones con la comunidad?</p>
         <p className="entrevista-respuesta">{entrevista.respuesta3}</p>
         
@@ -78,8 +76,8 @@ function EntrevistaIndividual() {
         <p className="entrevista-pregunta">¿Tienes algún sueño o meta con tus creaciones a largo plazo?</p>
         <p className="entrevista-respuesta">{entrevista.respuesta7}</p>
 
-        {entrevista.socialMediaLink && (
-            <a href={entrevista.socialMediaLink} target="_blank" rel="noopener noreferrer" className="btn-social-media">
+        {entrevista.enlaceCreador && (
+            <a href={entrevista.enlaceCreador} target="_blank" rel="noopener noreferrer" className="btn-enlace-creador">
                 Visita mi perfil
             </a>
         )}

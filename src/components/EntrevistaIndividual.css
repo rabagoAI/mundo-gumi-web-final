@@ -62,3 +62,19 @@
 .btn-social-media:hover {
     background-color: #4b342b;
 }
+
+.btn-enlace-creador {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 25px;
+    background-color: #5d4037; /* Color de tu marca */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-enlace-creador:hover {
+    background-color: #4b342b;
+}
