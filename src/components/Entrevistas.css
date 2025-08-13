@@ -1,0 +1,81 @@
+/* src/components/Entrevistas.css */
+
+.entrevistas-page {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f9f7f4;
+  min-height: 100vh;
+}
+
+.entrevistas-page h1 {
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.entrevistas-page p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.entrevistas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.entrevista-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.entrevista-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.entrevista-image {
+  width: 100%;
+  height: 250px; /* Tamaño fijo para que las tarjetas se vean uniformes */
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.entrevista-card h3 {
+  font-size: 1.8rem;
+  color: #5d4037;
+  margin-bottom: 10px;
+}
+
+.entrevista-descripcion {
+  font-size: 1rem;
+  color: #666;
+  flex-grow: 1;
+  margin-bottom: 15px;
+}
+
+.btn-ver-entrevista {
+  display: inline-block;
+  margin-top: auto; /* Esto empuja el botón al final de la tarjeta */
+  padding: 10px 20px;
+  background-color: #5d4037;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-ver-entrevista:hover {
+  background-color: #4b342b;
+}

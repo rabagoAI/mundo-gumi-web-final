@@ -4,13 +4,14 @@ import './FeaturedPatterns.css';
 import koala from '../assets/images/koala.png';
 import superman from '../assets/images/superman.png';
 import alienigena from '../assets/images/alienigena.png';
+import ositoKawaii from '../assets/images/osito-kawaii.png';
 
 
 const patterns = [
   
-  { id: 'alienigena', name: 'Alienígena', image: alienigena },
   { id: 'superman-amigurumi', name: 'Superman', image: superman},
-  { id: 'koala', name: 'Koala', image: koala },
+  { id: 'alienigena', name: 'Alienígena', image: alienigena },
+  { id: 'ositoKawaii', name: 'Osito Kawaii Amarillo', image: ositoKawaii },
  
 
 ];

@@ -1,0 +1,64 @@
+/* src/components/EntrevistaIndividual.css */
+
+.entrevista-individual-page {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #f9f7f4;
+}
+
+.entrevista-individual-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.entrevista-individual-page h1 {
+  font-size: 2.5rem;
+  color: #5d4037;
+  margin-bottom: 30px;
+}
+
+.entrevista-content {
+  text-align: left;
+}
+
+.entrevista-pregunta {
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #333;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+.entrevista-respuesta {
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+.entrevista-error, .entrevista-cargando {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #888;
+  padding: 50px;
+}
+
+.btn-social-media {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 25px;
+    background-color: #5d4037;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-social-media:hover {
+    background-color: #4b342b;
+}

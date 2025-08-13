@@ -30,6 +30,7 @@ function Header() {
           <li><Link to="/tutoriales" onClick={handleLinkClick}>Tutoriales</Link></li>
           <li><Link to="/comunidad" onClick={handleLinkClick}>Comunidad</Link></li>
           <li><Link to="/contacto" onClick={handleLinkClick}>Contacto</Link></li>
+          <li> <Link to="/entrevistas" onClick={handleLinkClick}>Entrevistas</Link></li>
         </ul>
       </nav>
     </header>
