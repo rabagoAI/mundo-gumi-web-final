@@ -1,17 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './FeaturedPatterns.css';
-import koala from '../assets/images/koala.png';
-import superman from '../assets/images/superman.png';
 import alienigena from '../assets/images/alienigena.png';
 import ositoKawaii from '../assets/images/osito-kawaii.png';
+import lilo from '../assets/images/lilo.png';
+import pinguino from '../assets/images/pinguino.png';
 
 
 const patterns = [
   
-  { id: 'superman-amigurumi', name: 'Superman', image: superman},
-  { id: 'alienigena', name: 'Alienígena', image: alienigena },
   { id: 'ositoKawaii', name: 'Osito Kawaii Amarillo', image: ositoKawaii },
+  { id: 'lilo', name: 'Lilo', image: lilo},
+  { id: 'pinguino', name: 'Pinguino', image: pinguino },
+  
  
 
 ];

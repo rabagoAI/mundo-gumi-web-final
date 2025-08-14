@@ -12,6 +12,7 @@ import superman from '../assets/images/superman.png';
 import alienigena from '../assets/images/alienigena.png';
 import ositoKawaii from '../assets/images/osito-kawaii.png';
 import lilo from '../assets/images/lilo.png';
+import pinguino from '../assets/images/pinguino.png';
 
 // Creamos la lista de patrones aquí. Podrías moverla a un archivo de datos.
 const patterns = [
@@ -27,6 +28,7 @@ const patterns = [
   { id: 'alienigena', name: 'Alienígena', image: alienigena, level: 'Intermedio' },
   { id: 'osito-kawaii', name: 'Osito Kawaii Amarillo', image: ositoKawaii, level: 'Fácil' },
   { id: 'lilo', name: 'Lilo', image: lilo, level: 'Intermedio' },
+  { id: 'pinguino', name: 'Pinguino', image: pinguino, level: 'Fácil' },
 ];
 
 function PatronesIA() {
