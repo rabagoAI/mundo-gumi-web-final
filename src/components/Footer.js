@@ -25,7 +25,11 @@ function Footer() {
           {/* Aquí podrías añadir enlaces a otras redes sociales */}
         </div>
       </div>
+      {/* Esta es la nueva sección para el aviso de afiliación */}
       <div className="footer-bottom">
+        <p className="afiliacion-aviso">
+          En nuestra web participamos en el Programa de Afiliados de Amazon.es, un programa de publicidad de afiliados diseñado para proporcionar a los sitios web un medio para obtener comisiones por publicidad, mediante la publicidad y la inclusión de enlaces a Amazon.es. Esto significa que, al hacer clic en los enlaces a productos de Amazon en nuestra web y realizar una compra, nosotros recibiremos una pequeña comisión. El precio de los productos no se ve afectado en absoluto por esta comisión. Utilizamos estos ingresos para mantener el sitio web y seguir creando contenido gratuito y de calidad.
+        </p>
         &copy; {currentYear} Mundo Gumi. Todos los derechos reservados.
       </div>
     </footer>

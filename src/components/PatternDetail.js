@@ -179,16 +179,17 @@ const patterns = [
     level: 'Fácil',
     description: 'Amigurumi de osito kawaii en color amarillo con detalles en blanco y rosa. Ideal para principiantes, ya que utiliza puntos básicos y pocas piezas para ensamblar.',
     materials: [
-      'Hilo de algodón amarillo, blanco y rosa claro',
-      'Ojos de seguridad (8 mm)',
-      'Relleno de fibra',
-      'Aguja de ganchillo 2.5 mm o 3.0 mm',
+      { name: 'Hilo de algodón amarillo, blanco y rosa claro', amazonLink: 'https://amzn.to/4mzKSYt' },
+      { name: 'Ojos de seguridad (8 mm)', amazonLink: 'https://amzn.to/45kwkFT' },
+      { name: 'Relleno de fibra', amazonLink: 'https://amzn.to/4mjQVjF' },
+      { name: 'Aguja de ganchillo 2.5 mm o 3.0 mm', amazonLink: 'https://amzn.to/4oT6XCT' },
       'Aguja lanera para coser',
       'Marcador de vueltas',
       'Tijeras'
     ],
     pdfUrl: 'osito-kawaii.pdf',
   },
+
   {
     id: 'lilo',
     name: 'Lilo',
@@ -249,13 +250,23 @@ function PatternDetail() {
         </div>
       </div>
       <div className="pattern-materials">
-        <h3>Materiales necesarios</h3>
-        <ul>
-          {pattern.materials.map((material, index) => (
-            <li key={index}>{material}</li>
-          ))}
-        </ul>
-      </div>
+  <h3>Materiales necesarios</h3>
+  <ul>
+    {pattern.materials.map((material, index) => (
+      <li key={index}>
+        {typeof material === 'object' && material !== null ? (
+          // Si el material es un objeto (con enlace), renderizamos un enlace
+          <a href={material.amazonLink} target="_blank" rel="noopener noreferrer">
+            {material.name}
+          </a>
+        ) : (
+          // Si el material es solo texto, lo renderizamos tal cual
+          material
+        )}
+      </li>
+    ))}
+  </ul>
+</div>
     </section>
   );
 }
