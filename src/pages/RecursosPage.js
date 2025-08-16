@@ -22,6 +22,46 @@ const recommendedProducts = [
       }
     ]
   },
+
+  {
+    category: 'Kit Amigurumis',
+    items: [
+      {
+        name: 'Kit de ganchillo para principiantes proporciona todo lo necesario para tejer',
+        imageUrl: 'https://m.media-amazon.com/images/I/71JCIDP+uNL._AC_SX679_.jpg',
+        description: 'Nuestro kit crochet principiantes viene con tutoriales en vídeo fáciles de seguir paso a paso, incluyendo cómo leer el manual',
+        amazonLink: 'https://amzn.to/3Uslfwa'
+      },
+      
+      {
+        name: 'Juego de Animales de Ganchillo para Principiantes',
+        imageUrl: 'https://m.media-amazon.com/images/I/71uGXqDjdvL._AC_SX679_.jpg',
+        description: 'Siga fácilmente las instrucciones a todo color y los videotutoriales paso a paso para hacer lindos hámsteres, medusas y ranas.',
+        amazonLink: 'https://amzn.to/3Jh3P3f'
+      }
+    ]
+  },
+
+  {
+    category: 'Libros Amigurumis',
+    items: [
+      {
+        name: 'Simpáticos Muñecos De Ganchillo Minis Amigurumis',
+        imageUrl: 'https://m.media-amazon.com/images/I/91TAHvWCVYL._SY385_.jpg',
+        description: 'Nuevos y sorprendentes minis Amigurumi de ganchillo Aviones, casitas, peces globo y dulces fresas, monstruos con tres ojos y naves espaciales.',
+        amazonLink: 'https://amzn.to/47izj35'
+      },
+      
+      {
+        name: 'La banda de Pica Pau. 20 divertidos amigurumis',
+        imageUrl: 'https://m.media-amazon.com/images/I/71Ag1QDVtnL._SY342_.jpg',
+        description: 'Siga fácilmente las instrucciones a todo color y los videotutoriales paso a paso para hacer lindos hámsteres, medusas y ranas.',
+        amazonLink: 'https://amzn.to/4lz3qGR'
+      }
+    ]
+  },
+
+  
   // ... (otras categorías como Ganchos, Kits, etc.)
 ];
 

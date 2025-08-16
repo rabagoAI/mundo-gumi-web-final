@@ -13,6 +13,7 @@ import alienigenaImage from '../assets/images/alienigena-2.png';
 import ositoKawaii from '../assets/images/osito-kawaii-2.png';
 import lilo from '../assets/images/lilo-2.png';
 import pinguino from '../assets/images/pinguino-2.png';
+import vaquitaTierna from '../assets/images/vaquita-tierna-2.jpeg';
 
 // Datos completos de los patrones
 const patterns = [
@@ -225,7 +226,26 @@ const patterns = [
       'Tijeras'
     ],
     pdfUrl: 'pinguino.pdf',
-}
+  },
+
+  {
+  id: 'vaquita-tierna',
+  name: 'Vaquita Tierna',
+  image: vaquitaTierna,
+  level: 'Intermedio',
+  description: 'Amigurumi de vaquita con hocico rosa, cuernos beige y orejitas bicolor. Ideal para quienes ya dominan los puntos básicos, ya que requiere cambios de color y varias piezas pequeñas.',
+  materials: [
+    'Hilo de algodón blanco, beige y rosa palo',
+    'Ojos de seguridad (10-12 mm)',
+    'Relleno de fibra',
+    'Aguja de ganchillo 2.5 mm o 3.0 mm',
+    'Hilo marrón/negro para bordar detalles',
+    'Aguja lanera para coser',
+    'Marcador de vueltas',
+    'Tijeras'
+  ],
+  pdfUrl: 'vaquita-tierna.pdf',
+},
 ];
 
 function PatternDetail() {
@@ -250,23 +270,23 @@ function PatternDetail() {
         </div>
       </div>
       <div className="pattern-materials">
-  <h3>Materiales necesarios</h3>
-  <ul>
-    {pattern.materials.map((material, index) => (
-      <li key={index}>
-        {typeof material === 'object' && material !== null ? (
-          // Si el material es un objeto (con enlace), renderizamos un enlace
-          <a href={material.amazonLink} target="_blank" rel="noopener noreferrer">
-            {material.name}
-          </a>
-        ) : (
-          // Si el material es solo texto, lo renderizamos tal cual
-          material
-        )}
-      </li>
-    ))}
-  </ul>
-</div>
+        <h3>Materiales necesarios</h3>
+        <ul>
+          {pattern.materials.map((material, index) => (
+            <li key={index}>
+              {typeof material === 'object' && material !== null ? (
+                // Si el material es un objeto (con enlace), renderizamos un enlace
+                <a href={material.amazonLink} target="_blank" rel="noopener noreferrer">
+                  {material.name}
+                </a>
+              ) : (
+                // Si el material es solo texto, lo renderizamos tal cual
+                material
+              )}
+            </li>
+          ))}
+        </ul>
+      </div>
     </section>
   );
 }
