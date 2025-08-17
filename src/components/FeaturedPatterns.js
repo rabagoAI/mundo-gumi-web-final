@@ -1,17 +1,21 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './FeaturedPatterns.css';
-import alienigena from '../assets/images/alienigena.png';
 import ositoKawaii from '../assets/images/osito-kawaii.png';
 import lilo from '../assets/images/lilo.png';
 import pinguino from '../assets/images/pinguino.png';
 
+import vaquita from '../assets/images/vaquita-tierna.jpeg';
+import gnomo from '../assets/images/gnomo.png';
+import muneca from '../assets/images/muneca-gorro.png';
+
+
 
 const patterns = [
   
-  { id: 'ositoKawaii', name: 'Osito Kawaii Amarillo', image: ositoKawaii },
-  { id: 'lilo', name: 'Lilo', image: lilo},
-  { id: 'pinguino', name: 'Pinguino', image: pinguino },
+  { id: 'vaquita-tierna', name: 'Vaquita Tierna', image: vaquita },
+  { id: 'gnomo-magico', name: 'Gnomo Amigurumi', image: gnomo},
+  { id: 'muneca-gorro', name: 'Muñequita con Gorro', image: muneca },
   
  
 

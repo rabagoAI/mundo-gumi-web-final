@@ -57,7 +57,14 @@ const recommendedProducts = [
         imageUrl: 'https://m.media-amazon.com/images/I/71Ag1QDVtnL._SY342_.jpg',
         description: 'Siga fácilmente las instrucciones a todo color y los videotutoriales paso a paso para hacer lindos hámsteres, medusas y ranas.',
         amazonLink: 'https://amzn.to/4lz3qGR'
-      }
+      },
+
+      {
+        name: 'La banda de Pica Pau 2',
+        imageUrl: 'https://m.media-amazon.com/images/I/71lV6W+CNXL._SY342_.jpg',
+        description: '¡La banda de muñecos de crochet más famosa del mundo ataca de nuevo! Disfruta de los nuevos integrantes creados por la diseñadora Yan Schenkel y de sus sencillas y maravillosas historias. ',
+        amazonLink: 'https://amzn.to/3V3Cx2L'
+      },
     ]
   },
 

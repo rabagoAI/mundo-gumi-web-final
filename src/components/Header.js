@@ -31,7 +31,7 @@ function Header() {
           <li><Link to="/comunidad" onClick={handleLinkClick}>Comunidad</Link></li>
           <li><Link to="/contacto" onClick={handleLinkClick}>Contacto</Link></li>
           <li> <Link to="/entrevistas" onClick={handleLinkClick}>Entrevistas</Link></li>
-          <li><a href="/recursos">Recursos</a></li>
+          <li><a href="/recursos">Tienda</a></li>
         </ul>
       </nav>
     </header>

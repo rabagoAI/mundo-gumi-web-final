@@ -14,6 +14,8 @@ import ositoKawaii from '../assets/images/osito-kawaii.png';
 import lilo from '../assets/images/lilo.png';
 import pinguino from '../assets/images/pinguino.png';
 import vaquitaTierna from '../assets/images/vaquita-tierna.jpeg';
+import gnomoAmigurumi from '../assets/images/gnomo.png';
+import munecaGorro from '../assets/images/muneca-gorro.png';
 
 // Creamos la lista de patrones aquí. Podrías moverla a un archivo de datos.
 const patterns = [
@@ -31,6 +33,8 @@ const patterns = [
   { id: 'lilo', name: 'Lilo', image: lilo, level: 'Intermedio' },
   { id: 'pinguino', name: 'Pinguino', image: pinguino, level: 'Fácil' },
   { id: 'vaquita-tierna', name: 'Vaquita Tierna', image: vaquitaTierna, level: 'Intermedio' },
+  { id: 'gnomo-magico', name: 'Gnomo Amigurumi', image: gnomoAmigurumi, level: 'Intermedio' },
+  { id: 'muneca-gorro', name: 'Muñequita con Gorro', image: munecaGorro, level: 'Intermedio' },
 ];
 
 function PatronesIA() {

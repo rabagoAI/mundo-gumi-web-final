@@ -14,6 +14,8 @@ import ositoKawaii from '../assets/images/osito-kawaii-2.png';
 import lilo from '../assets/images/lilo-2.png';
 import pinguino from '../assets/images/pinguino-2.png';
 import vaquitaTierna from '../assets/images/vaquita-tierna-2.jpeg';
+import gnomoAmigurumi from '../assets/images/gnomo-2.png';
+import munecaGorro from '../assets/images/muneca-gorro-2.png';
 
 // Datos completos de los patrones
 const patterns = [
@@ -246,6 +248,43 @@ const patterns = [
   ],
   pdfUrl: 'vaquita-tierna.pdf',
 },
+
+{
+  id: 'gnomo-magico',
+  name: 'Gnomo Amigurumi',
+  image: gnomoAmigurumi,
+  level: 'Intermedio',
+  description: 'Un simpático gnomo con gorro rojo puntiagudo, barba blanca y ropa colorida. Perfecto para decorar o regalar. Este patrón requiere cambios de color y varias piezas pequeñas.',
+  materials: [
+    'Hilo de algodón en rojo, blanco, amarillo, azul y marrón',
+    'Ojos de seguridad (8-10 mm)',
+    'Relleno de fibra',
+    'Aguja de ganchillo 2.5 mm o 3.0 mm',
+    'Aguja lanera',
+    'Marcador de vueltas',
+    'Tijeras'
+  ],
+  pdfUrl: 'gnomo-magico.pdf',
+},
+
+{
+  id: 'muneca-gorro',
+  name: 'Muñequita con Gorro',
+  image: munecaGorro,
+  level: 'Intermedio',
+  description: 'Amigurumi de una tierna muñequita con gorro de lana multicolor y pompón. Incluye vestido turquesa, botas rojas y detalles bordados. Perfecto para quienes buscan un reto un poco más avanzado.',
+  materials: [
+    'Hilo de algodón en colores piel, naranja, verde, turquesa, rojo y fucsia',
+    'Ojos de seguridad (8 mm)',
+    'Relleno de fibra',
+    'Aguja de ganchillo 2.5 mm – 3.0 mm',
+    'Aguja lanera',
+    'Marcador de vueltas',
+    'Tijeras'
+  ],
+  pdfUrl: 'muneca-gorro.pdf',
+},
+
 ];
 
 function PatternDetail() {
