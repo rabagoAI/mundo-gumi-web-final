@@ -8,10 +8,10 @@ function Home() {
   return (
     <div>
       {/* Sección 1: Hero Section */}
-       <HeroSection /> {/* Lo colocamos aquí */}
+       <HeroSection />
 
       {/* Sección 2: Patrones destacados */}
-      <FeaturedPatterns /> {/* Lo colocamos aquí */}
+      {/* <FeaturedPatterns /> */} {/* <-- Hemos comentado esta línea */}
 
       {/* Sección 3: Comunidad */}
       <CommunityShowcase />
