@@ -25,7 +25,7 @@ function Header() {
       </button>
       <nav className={`main-nav ${isMobileMenuOpen ? 'open' : ''}`}>
         <ul>
-          <li><Link to="/patrones-mundo-gumi" onClick={handleLinkClick}>Patrones IA</Link></li>
+           {/* <li><Link to="/patrones-mundo-gumi" onClick={handleLinkClick}>Patrones IA</Link></li> */}
           <li><Link to="/patrones-colaboradores" onClick={handleLinkClick}>Colaboradores</Link></li>
           <li><Link to="/tutoriales" onClick={handleLinkClick}>Tutoriales</Link></li>
           <li><Link to="/comunidad" onClick={handleLinkClick}>Comunidad</Link></li>
