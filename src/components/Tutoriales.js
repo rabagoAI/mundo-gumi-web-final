@@ -3,27 +3,27 @@ import './Tutoriales.css'; // Importamos el archivo CSS
 
 // Datos de ejemplo para los tutoriales
 const tutorials = [
+  
+
   { 
     id: 1, 
-    title: 'Punto Bajo: El Básico', 
-    thumbnail: 'https://via.placeholder.com/300x200.png?text=Tutorial+Punto+Bajo', 
-    description: 'Aprende el punto bajo, la base de todos los amigurumis.',
-    link: 'https://www.youtube.com/watch?v=tu_enlace_a_youtube'
+    title: 'Aprende el anillo mágico desde cero', 
+    thumbnail: 'https://img.youtube.com/vi/YwZJ8Qf_jgA/mqdefault.jpg', 
+    description: 'Domina el cpunto bajo o medio punto; lo más básico para que te inicies en esta bonita técnica. ',
+    link: 'https://www.youtube.com/watch?v=YwZJ8Qf_jgA'
   },
+
   { 
     id: 2, 
-    title: 'Círculo Mágico: Sin secretos', 
-    thumbnail: 'https://via.placeholder.com/300x200.png?text=Tutorial+Circulo+Magico', 
+    title: 'Punto bajo y vueltas iniciales', 
+    thumbnail: 'https://img.youtube.com/vi/QqKZLDk-4OY/mqdefault.jpg', 
     description: 'Domina el círculo mágico para empezar tus proyectos sin fallos.',
-    link: 'https://www.youtube.com/watch?v=tu_otro_enlace_a_youtube'
+    link: 'https://www.youtube.com/watch?v=QqKZLDk-4OY'
   },
-  { 
-    id: 3, 
-    title: 'Cambio de Color Invisible', 
-    thumbnail: 'https://via.placeholder.com/300x200.png?text=Tutorial+Cambio+Color', 
-    description: 'Técnica avanzada para cambiar de color sin que se note la unión.',
-    link: 'https://www.youtube.com/watch?v=tu_tercer_enlace_a_youtube'
-  },
+  
+
+  
+  
 ];
 
 function Tutoriales() {
