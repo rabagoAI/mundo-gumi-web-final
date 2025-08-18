@@ -19,7 +19,23 @@ const recommendedProducts = [
         imageUrl: 'https://m.media-amazon.com/images/I/71Z0uh3dXDL._AC_SX679_.jpg',
         description: 'Suave y fácil de cuidar: el algodón certificado OEKO-TEX es agradablemente suave, duradero y se puede lavar fácilmente a 40 °C en un ciclo suave',
         amazonLink: 'https://amzn.to/45tYWv6'
-      }
+      },
+
+      
+      {
+        name: 'Hilo para Tejer a Crochet, ilauke 20 * 30g Ovillo de Lana con 2 Ganchos de Ganchillo, 2 Agujas, 8 Marcadores y Bolsos Verdes, Lana Acrílico Multicolor',
+        imageUrl: 'https://m.media-amazon.com/images/I/71oGgvUA4mL._AC_SX679_.jpg',
+        description: 'Lana para tejer ilauke está hecho de resina acrílica muy suave, cálida y duradera. 20pcs hilos acrílicos de diferentes colores, cada bola pesa aproximadamente 30g 4 capas, de brillantes a oscuros, para múltiples proyectos o que requieren varios hilos ultrasuaves.',
+        amazonLink: 'https://amzn.to/41LmgTZ'
+      },
+
+      {
+        name: 'Gründl Amigurumi Kit de Ganchillos',
+        imageUrl: 'https://m.media-amazon.com/images/I/81EpMGohUHL._AC_SX679_.jpg',
+        description: 'HECHO PARA AMIGURUMI: Los coloridos mini ovillos con una tirada de 10 g/23 m (tamaño de aguja: 3-4) son perfectos para amigurumi de calceta o ganchillo.',
+        amazonLink: 'https://amzn.to/45zjWR3'
+      },
+
     ]
   },
 
