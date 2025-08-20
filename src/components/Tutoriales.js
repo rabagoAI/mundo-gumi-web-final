@@ -20,6 +20,15 @@ const tutorials = [
     description: 'Domina el círculo mágico para empezar tus proyectos sin fallos.',
     link: 'https://www.youtube.com/watch?v=QqKZLDk-4OY'
   },
+
+  { 
+    id: 3, 
+    title: 'Ballenita Amigurumi Blue Bubalu', 
+    thumbnail: 'https://img.youtube.com/vi/EYnF3y1TGKY/mqdefault.jpg', 
+    description: 'Domina el círculo mágico para empezar tus proyectos sin fallos.',
+    link: 'https://youtu.be/EYnF3y1TGKY?si=-5GICk0qR5DWX-Q1'
+  },
+  
   
 
   

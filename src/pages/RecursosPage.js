@@ -36,6 +36,13 @@ const recommendedProducts = [
         amazonLink: 'https://amzn.to/45zjWR3'
       },
 
+      {
+        name: 'Hilo de tejer - 42 piezas Hilo de algodón.2 Agujas de Ganchillo para patrones, proyectos y apliques',
+        imageUrl: 'https://m.media-amazon.com/images/I/91FAc-EegzL._AC_SX679_.jpg',
+        description: '42 COLORIDOS OVILLOS CROCHET: Este set tiene 42 bolas de hilo con colores surtidos. Cada madeja de hilos para crochet está hecha de algodón, pesa 10 gramos y tiene un largo de 60 metros.',
+        amazonLink: 'https://amzn.to/4oK2hig'
+      },
+
     ]
   },
 
@@ -54,9 +61,19 @@ const recommendedProducts = [
         imageUrl: 'https://m.media-amazon.com/images/I/71uGXqDjdvL._AC_SX679_.jpg',
         description: 'Siga fácilmente las instrucciones a todo color y los videotutoriales paso a paso para hacer lindos hámsteres, medusas y ranas.',
         amazonLink: 'https://amzn.to/3Jh3P3f'
-      }
+      },
+
+      {
+        name: 'Kits de crochet para niños y adultos con tutoriales en video paso a paso',
+        imageUrl: 'https://m.media-amazon.com/images/I/71iqtuyt-LL._AC_SX679_.jpg',
+        description: 'Incluye los kits de crochet: 3 kits de crochet con lindos animales (Conejo, Pingüino y Pollito) para principiantes.',
+        amazonLink: 'https://amzn.to/45Mticl'
+      },
+
     ]
   },
+
+
 
   {
     category: 'Libros Amigurumis',
