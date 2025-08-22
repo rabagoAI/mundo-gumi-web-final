@@ -29,6 +29,21 @@ const tutorials = [
     link: 'https://youtu.be/EYnF3y1TGKY?si=-5GICk0qR5DWX-Q1'
   },
   
+  { 
+    id: 4, 
+    title: 'Capibara con mochila', 
+    thumbnail: 'https://img.youtube.com/vi/1GxbBTYDYWk/mqdefault.jpg', 
+    description: 'Realicemos a este lindo Capybara con Mochila.',
+    link: 'https://www.youtube.com/watch?v=1GxbBTYDYWk'
+  },
+
+  { 
+    id: 5, 
+    title: 'Cinnamoroll Amigurumi Llavero', 
+    thumbnail: 'https://img.youtube.com/vi/ZL4cT0tfJHg/mqdefault.jpg', 
+    description: 'En este tutorial vas a aprender a realizar este hermoso llaverito de Cinnamoroll.',
+    link: 'https://www.youtube.com/watch?v=ZL4cT0tfJHg'
+  },
   
 
   

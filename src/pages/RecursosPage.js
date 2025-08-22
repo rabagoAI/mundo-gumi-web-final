@@ -5,7 +5,7 @@ import './RecursosPage.css';
 // Aquí defines los datos de los productos que vas a recomendar
 const recommendedProducts = [
   {
-    category: 'Lanas y Hilos',
+    category: 'Lanas y Materiales',
     items: [
       {
         name: 'Ovillos de 30 para amigurumi',
@@ -41,6 +41,20 @@ const recommendedProducts = [
         imageUrl: 'https://m.media-amazon.com/images/I/91FAc-EegzL._AC_SX679_.jpg',
         description: '42 COLORIDOS OVILLOS CROCHET: Este set tiene 42 bolas de hilo con colores surtidos. Cada madeja de hilos para crochet está hecha de algodón, pesa 10 gramos y tiene un largo de 60 metros.',
         amazonLink: 'https://amzn.to/4oK2hig'
+      },
+
+      {
+        name: 'Algodón de Relleno, altam.frisado, Copos, 100% poliéster, Blanco, 500 g',
+        imageUrl: 'https://m.media-amazon.com/images/I/71B75gg5tqL._AC_SY879_.jpg',
+        description: 'Relleno de algodón, ideal para rellenar peluches, almohadas, cojines, almohadones de todo tipo y para otras manualidades',
+        amazonLink: 'https://amzn.to/4fL6nTk'
+      },
+
+      {
+        name: '14 PCS Agujas de Ganchillos Kit de Ganchillos Accesorios con Bolsa Kit Conjunto de Ganchillo',
+        imageUrl: 'https://m.media-amazon.com/images/I/71swvIeA9aL._AC_SX425_.jpg',
+        description: 'Las agujas de punto de ganchillo son un regalo ideal para madres, niños, niñas, estudiantes universitarios, principiantes, etc. El kit de costura es perfecto para hombres y mujeres, el mejor regalo para familiares y amigos.',
+        amazonLink: 'https://amzn.to/47b94vm'
       },
 
     ]
