@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { collection, onSnapshot } from 'firebase/firestore';
+import { collection, onSnapshot, query, orderBy } from 'firebase/firestore'; // <-- Importa query y orderBy
 import { db } from '../firebase';
 import './Colaboradores.css';
 
@@ -8,7 +8,13 @@ function Colaboradores() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const unsub = onSnapshot(collection(db, 'colaboradores'), (snapshot) => {
+    // Crea una consulta (query) que ordena los documentos por la fecha de forma descendente
+    const q = query(
+      collection(db, 'colaboradores'),
+      orderBy('fecha', 'desc') // <-- Añade esta línea
+    );
+
+    const unsub = onSnapshot(q, (snapshot) => { // <-- Pasa la consulta (q) a onSnapshot
       const colaboradoresData = snapshot.docs.map(doc => ({
         id: doc.id,
         ...doc.data()
@@ -40,8 +46,8 @@ function Colaboradores() {
               </a>
               <p>
                 Por: <a href={colaborador.socialMediaLink} target="_blank" rel="noopener noreferrer" className="creator-link-button">
-                        {colaborador.name}
-                     </a>
+                  {colaborador.name}
+                </a>
               </p>
             </div>
           </div>
