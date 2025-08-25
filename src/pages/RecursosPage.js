@@ -57,6 +57,21 @@ const recommendedProducts = [
         amazonLink: 'https://amzn.to/47b94vm'
       },
 
+      {
+        name: 'Coopay Agujas de Ganchillo, 9 piezas de Ganchillo Negro Clásico con Gancho de Aluminio Dorado',
+        imageUrl: 'https://m.media-amazon.com/images/I/71rZcJtdoLS._AC_SX679_.jpg',
+        description: 'MANGO ERGONÓMICO FABRICADO EN SÍLICE SUAVE: el mango de ganchillo negro está hecho de silicona blanda. La parte plana del agarre para el pulgar tiene un diseño ergonómico y es fácil de agarrar.',
+        amazonLink: 'https://amzn.to/4lNtKNs'
+      },
+
+      {
+        name: 'AUAUY Hilo Que Brilla en la Oscuridad, 2 Rollos de Hilo Luminoso',
+        imageUrl: 'https://m.media-amazon.com/images/I/710-tHRyC1L._AC_SX425_.jpg',
+        description: '🧶 【BRILLA EN LA OSCURIDAD】 El hilo que brilla en la oscuridad es conveniente y fácil de usar, y el efecto brillante se basa en la luz ultravioleta. Simplemente colóquelo bajo la luz del sol antes de usarlo, deje que absorba completamente la luz, de modo que pueda ser más brillante por la noche, lo que permite que sus manualidades de costura y tejido sean más llamativas.',
+        amazonLink: 'https://amzn.to/3JRbPIg'
+      },
+
+
     ]
   },
 
@@ -83,6 +98,8 @@ const recommendedProducts = [
         description: 'Incluye los kits de crochet: 3 kits de crochet con lindos animales (Conejo, Pingüino y Pollito) para principiantes.',
         amazonLink: 'https://amzn.to/45Mticl'
       },
+
+      
 
     ]
   },
