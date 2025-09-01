@@ -95,6 +95,46 @@ const tutorials = [
     link: 'https://www.youtube.com/watch?v=PB0qIqc_OJI'
   },
 
+  { 
+    id: 12, 
+    title: 'Rumi Kpop Demon Hunters Amigurumi | CatalinArte Tejidos', 
+    thumbnail: 'https://img.youtube.com/vi/S9i4Np3TCX8/mqdefault.jpg', 
+    description: 'Holiiiis hoy empezamos los tutoriales de las Huntrix a pedido de ustedes :) y la primera es Rumi obviiiiio',
+    link: 'https://www.youtube.com/watch?v=S9i4Np3TCX8'
+  },
+
+  { 
+    id: 13, 
+    title: 'ZOEY Huntrix Tutorial Amigurumi | Parte1 | Aligurumy', 
+    thumbnail: 'https://img.youtube.com/vi/MtsVzJtDT1I/mqdefault.jpg', 
+    description: '💫Me alegra mucho poder enseñarles a tejer a Zoey de la pelicula de K-pop Demon Hunters en version Amigurumi💫',
+    link: 'https://www.youtube.com/watch?v=MtsVzJtDT1I'
+  },
+
+  { 
+    id: 14, 
+    title: 'ZOEY Huntrix Tutorial Amigurumi | Parte2 | Aligurumy', 
+    thumbnail: 'https://img.youtube.com/vi/KlsrkMHN2W8/mqdefault.jpg', 
+    description: 'En esta Segunda parte aprenderás hacer los Detalles de los Ojos y el Cabello🔥',
+    link: 'https://www.youtube.com/watch?v=KlsrkMHN2W8'
+  },
+
+  { 
+    id: 15, 
+    title: 'RENGOKU Tutorial Amigurumi | Parte1 | Aligurumy', 
+    thumbnail: 'https://img.youtube.com/vi/8A0Sh1DF0Zc/mqdefault.jpg', 
+    description: '💫Me alegra mucho poder enseñarles a tejer a Rengoku del anime de Kimetsu No Yaiba en version Amigurumi💫',
+    link: 'https://www.youtube.com/watch?v=8A0Sh1DF0Zc'
+  },
+
+  { 
+    id: 15, 
+    title: 'RENGOKU Tutorial Amigurumi | Parte2 | Aligurumy', 
+    thumbnail: 'https://img.youtube.com/vi/dLHEo3lYnUo/mqdefault.jpg', 
+    description: 'En esta Segunda parte aprenderás hacer los Detalles de los Ojos y el Cabello🔥',
+    link: 'https://www.youtube.com/watch?v=dLHEo3lYnUo'
+  },
+
   
 
   
