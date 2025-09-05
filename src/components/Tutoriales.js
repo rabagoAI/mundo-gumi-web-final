@@ -135,6 +135,22 @@ const tutorials = [
     link: 'https://www.youtube.com/watch?v=dLHEo3lYnUo'
   },
 
+  { 
+    id: 16, 
+    title: 'Cómo tejer un labubu | Amigurumi Tutorial Paso a Paso', 
+    thumbnail: 'https://img.youtube.com/vi/NJ2FjWcwP_8/mqdefault.jpg', 
+    description: 'Te enseño a tejer un hermoso Labubu para Halloween. Mide 15 cm y el resultado te encantará 🧡🎃',
+    link: 'https://www.youtube.com/watch?v=NJ2FjWcwP_8'
+  },
+
+  { 
+    id: 17, 
+    title: 'BAMBOLA MUÑEQUITA LELE MEXICANA AMIGURUMI / TEJIDA FACIL / TUTORIAL PASO A PASO', 
+    thumbnail: 'https://img.youtube.com/vi/bJ-PjPff5mc/mqdefault.jpg', 
+    description: 'Aprende a tejer una lina Bambola de muñeca Lele mexicana.',
+    link: 'https://www.youtube.com/watch?v=bJ-PjPff5mc'
+  },
+
   
 
   

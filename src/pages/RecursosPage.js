@@ -99,6 +99,14 @@ const recommendedProducts = [
         amazonLink: 'https://amzn.to/45Mticl'
       },
 
+      {
+        name: 'Kit de Manualidades para Adultos y adolescentes: Kit de crochet y Ganchillo Fácil para Crear Amigurumi - Ideal Principiantes.',
+        imageUrl: 'https://m.media-amazon.com/images/I/81Dcmrdi3pL._AC_SX679_.jpg',
+        description: 'Este kit crochet principiantes incluye lanas para crochet de colores vibrantes y un hilo crochet suave donde podrás realizar 6 figuaras.',
+        amazonLink: 'https://amzn.to/4nkpdDy'
+      },
+
+
       
 
     ]
@@ -129,6 +137,15 @@ const recommendedProducts = [
         description: '¡La banda de muñecos de crochet más famosa del mundo ataca de nuevo! Disfruta de los nuevos integrantes creados por la diseñadora Yan Schenkel y de sus sencillas y maravillosas historias. ',
         amazonLink: 'https://amzn.to/3V3Cx2L'
       },
+
+
+      {
+        name: 'Mascotas de ganchillo. Animales de ganchillo tiernos, simpáticos e imaginativos',
+        imageUrl: 'https://m.media-amazon.com/images/I/612Jfj8VHIL._SY385_.jpg',
+        description: '¡Prepárate para divertirte con un rinoceronte suave, un elefante nostálgico que sabe cómo colarse en la cocina y un tigre caballeroso...!',
+        amazonLink: 'https://amzn.to/47uP5b0'
+      },
+
     ]
   },
 
