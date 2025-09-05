@@ -71,6 +71,13 @@ const recommendedProducts = [
         amazonLink: 'https://amzn.to/3JRbPIg'
       },
 
+      {
+        name: '8 ovillos de hilo de ganchillo grueso para principiantes',
+        imageUrl: 'https://m.media-amazon.com/images/I/81r9n0VjFcL._AC_SX679_.jpg',
+        description: 'Disponible en 8 colores diferentes: morado claro, amarillo claro, caqui, beige, verde sauce, rosa begonia, rosa cereza, azul aguamarina.',
+        amazonLink: 'https://amzn.to/47uqIKz'
+      },
+
 
     ]
   },
