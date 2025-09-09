@@ -151,6 +151,38 @@ const tutorials = [
     link: 'https://www.youtube.com/watch?v=bJ-PjPff5mc'
   },
 
+  { 
+    id: 18, 
+    title: 'Capuchino asesino amigurumi', 
+    thumbnail: 'https://img.youtube.com/vi/kgAmG1rxKTo/mqdefault.jpg', 
+    description: 'Aprende a tejer este bonito amigurumi de la colección de memes italianos.',
+    link: 'https://www.youtube.com/watch?v=kgAmG1rxKTo'
+  },
+
+  { 
+    id: 19, 
+    title: 'Llavero Gatito 🐈|Tejido a Crochet Súper Fácil y Rápido', 
+    thumbnail: 'https://img.youtube.com/vi/ygIJ7-Jjszw/mqdefault.jpg', 
+    description: 'Holaaa soy Ari y te enseño a tejer este hermoso llavero de gatito muy fácil y rápido de hacer 🐈🧶',
+    link: 'https://www.youtube.com/watch?v=ygIJ7-Jjszw'
+  },
+
+  { 
+    id: 20, 
+    title: 'BRUJITA HALLOWEEN. Amigurumi 🎃👻. Tutorial Paso a Paso.🧙‍♀️🧹Emmalu', 
+    thumbnail: 'https://img.youtube.com/vi/TznWRzG5OqY/mqdefault.jpg', 
+    description: 'En este tutorial te enseño paso a paso como tejer una linda brujita a crochet. Ideal para decorar Halloween.',
+    link: 'https://www.youtube.com/watch?v=TznWRzG5OqY'
+  },
+
+  { 
+    id: 21, 
+    title: '✨️Como hacer llavero hamburguesa en crochet | DIY Amigurumi fácil 🍔', 
+    thumbnail: 'https://img.youtube.com/vi/mUmXEVn2xpk/mqdefault.jpg', 
+    description: 'Es un proyecto divertido y perfecto para regalar o decorar tus llaves, mochila o estuche.',
+    link: 'https://www.youtube.com/watch?v=mUmXEVn2xpk'
+  },
+
   
 
   
