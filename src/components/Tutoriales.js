@@ -183,6 +183,31 @@ const tutorials = [
     link: 'https://www.youtube.com/watch?v=mUmXEVn2xpk'
   },
 
+    { 
+    id: 22, 
+    title: 'Lilo Hawaiana Amigurumi 🌺 Tutorial Paso a Paso', 
+    thumbnail: 'https://img.youtube.com/vi/AgrJU0cQBHM/mqdefault.jpg', 
+    description: 'Holis massirañitas en este Tutorial les enseñaré a tejer a Lilo en su versión hawaiana 🌺 espero les sea útil este video 🍄',
+    link: 'https://www.youtube.com/watch?v=AgrJU0cQBHM'
+  },
+
+  { 
+    id: 23, 
+    title: 'Corazón tierno con ojos grandes | Cute Heart Crochet | Amigurumi Tutorial | Matti Handcraft', 
+    thumbnail: 'https://img.youtube.com/vi/dfqJS04R2OE/mqdefault.jpg', 
+    description: '🌸 ¡Hola! Bienvenid@ a Matti Handcrafts 🌸. Es perfecto para regalar en San Valentín, aniversarios o como detalle especial hecho a mano.',
+    link: 'https://www.youtube.com/watch?v=dfqJS04R2OE'
+  },
+
+  { 
+    id: 224, 
+    title: '🧛🏻‍♂️Vampiro Amigurumi a Crochet 👉🏻Paso a Paso Fácil para Halloween', 
+    thumbnail: 'https://img.youtube.com/vi/uAqLS0M8OgM/mqdefault.jpg', 
+    description: '🎃 ¡Bienvenidos a Patoys! 🎃. En este tutorial aprenderás a tejer un Vampiro Amigurumi a crochet, ideal para decorar en Halloween o regalar como detalle especial.',
+    link: 'https://www.youtube.com/watch?v=uAqLS0M8OgM'
+  },
+
+
   
 
   
