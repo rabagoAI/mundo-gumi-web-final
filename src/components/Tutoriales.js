@@ -3,7 +3,56 @@ import './Tutoriales.css'; // Importamos el archivo CSS
 
 // Datos de ejemplo para los tutoriales
 const tutorials = [
+
+
+  { 
+    id: 25, 
+    title: 'Pollito con girasol amigurumi | Tejidos Joss |', 
+    thumbnail: 'https://img.youtube.com/vi/LTuwZGmKTzs/mqdefault.jpg', 
+    description: 'Hola a todos 😊 hoy vamos hacer un pollito con girasol amigurumi',
+    link: 'https://www.youtube.com/watch?v=LTuwZGmKTzs'
+  },
   
+  { 
+    id: 26, 
+    title: 'Dinosaurio / Crochet / Paso a Paso / Amigurumi / Brontosaurio', 
+    thumbnail: 'https://img.youtube.com/vi/u8SSA0Bn5NE/mqdefault.jpg', 
+    description: 'En el video de hoy realizaremos este lindo Dino!Espero que les guste y que disfruten el video que esta hecho con ♥️',
+    link: 'https://www.youtube.com/watch?v=u8SSA0Bn5NE'
+  },
+
+  { 
+    id: 27, 
+    title: 'Rayo McQueen y Sally a crochet 🚗', 
+    thumbnail: 'https://img.youtube.com/vi/VH1LVmhg8PM/mqdefault.jpg', 
+    description: 'Aprende a tejer a Rayo McQueen y Sally en crochet con este tutorial paso a paso. 🧵✨',
+    link: 'https://www.youtube.com/watch?v=VH1LVmhg8PM'
+  },
+
+  { 
+    id: 28, 
+    title: 'TOKITO MUICHIRO AMIGURUMI  / KIMETSU NO YAIBA / Parte 1 de 3', 
+    thumbnail: 'https://img.youtube.com/vi/Jnf9cpVIq-s/mqdefault.jpg', 
+    description: 'En este tutorial vamos a comenzar a  realizar a TOKITO MUICHIRO el Pilar de la NIEBLA, personaje del anime Kimetsu no Yaiba realizado a crochet con la técnica de Amigurumi.',
+    link: 'https://www.youtube.com/watch?v=Jnf9cpVIq-s'
+  },
+
+  { 
+    id: 29, 
+    title: 'TOKITO MUICHIRO AMIGURUMI  / KIMETSU NO YAIBA / Parte 2 de 3', 
+    thumbnail: 'https://img.youtube.com/vi/xHg4P3fXBdA/mqdefault.jpg', 
+    description: 'En este  video continuamos tejiendo a  TOKITO MUICHIRO el Pilar de la NIEBLA.',
+    link: 'https://www.youtube.com/watch?v=xHg4P3fXBdA'
+  },
+
+  { 
+    id: 30, 
+    title: 'TOKITO MUICHIRO AMIGURUMI  / KIMETSU NO YAIBA / Parte 3 de 3', 
+    thumbnail: 'https://img.youtube.com/vi/NjX7GkmiL4g/mqdefault.jpg', 
+    description: 'En este tutorial terminaremos de tejer a TOKITO MUICHIRO.',
+    link: 'https://www.youtube.com/watch?v=NjX7GkmiL4g'
+  },
+
 
   { 
     id: 1, 
@@ -200,15 +249,12 @@ const tutorials = [
   },
 
   { 
-    id: 224, 
+    id: 24, 
     title: '🧛🏻‍♂️Vampiro Amigurumi a Crochet 👉🏻Paso a Paso Fácil para Halloween', 
     thumbnail: 'https://img.youtube.com/vi/uAqLS0M8OgM/mqdefault.jpg', 
     description: '🎃 ¡Bienvenidos a Patoys! 🎃. En este tutorial aprenderás a tejer un Vampiro Amigurumi a crochet, ideal para decorar en Halloween o regalar como detalle especial.',
     link: 'https://www.youtube.com/watch?v=uAqLS0M8OgM'
   },
-
-
-  
 
   
   

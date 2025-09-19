@@ -7,13 +7,24 @@ const recommendedProducts = [
   {
     category: 'Lanas y Materiales',
     items: [
-      {
-        name: 'Ovillos de 30 para amigurumi',
-        imageUrl: 'https://m.media-amazon.com/images/I/81KazRsUyVL._AC_SX425_.jpg',
-        description: 'Está hecho de 100% acrílico, que tiene propiedades similares a la lana. El vellón de punto es suave y cálido, menos bolitas, resistente al desgarro y fácil de limpiar. Los colores son brillantes y ricos, hay 30 colores de ganchillo para elegir y el precio es asequible',
-        amazonLink: 'https://amzn.to/4lsWsmD' // ¡Pega aquí tu enlace de afiliado!
-      },
+      
       // Puedes añadir más lanas aquí como otro objeto
+
+      {
+        name: 'Perlé - hilo algodón mercerizado, muy suave, hilo de tejer, hilo de ganchillo (50 gr/ovillo ; 12 colores)',
+        imageUrl: 'https://m.media-amazon.com/images/I/71GNmVzWtWL._AC_SX679_.jpg',
+        description: 'Experimenta la suavidad del hilo de algodón Perlé mercerizado de Lidia Crochet Tricot.',
+        amazonLink: 'https://amzn.to/4nCj5qf' // ¡Pega aquí tu enlace de afiliado!
+      },
+
+      {
+        name: '100 ojos de seguridad para animales de ganchillo, 6/8/9/10/12 mm',
+        imageUrl: 'https://m.media-amazon.com/images/I/71ioTQ7OPBL._AC_SX679_.jpg',
+        description: 'Juego de ojos Amigurumi: recibirás 100 piezas de ojos de seguridad, 100 arandelas y 1 caja de almacenamiento. ',
+        amazonLink: 'https://amzn.to/4grhkcY'
+      },
+
+
       {
         name: '10 miniovillos en diferentes colores',
         imageUrl: 'https://m.media-amazon.com/images/I/71Z0uh3dXDL._AC_SX679_.jpg',
@@ -77,6 +88,9 @@ const recommendedProducts = [
         description: 'Disponible en 8 colores diferentes: morado claro, amarillo claro, caqui, beige, verde sauce, rosa begonia, rosa cereza, azul aguamarina.',
         amazonLink: 'https://amzn.to/47uqIKz'
       },
+
+      
+      
 
 
     ]
@@ -151,6 +165,13 @@ const recommendedProducts = [
         imageUrl: 'https://m.media-amazon.com/images/I/612Jfj8VHIL._SY385_.jpg',
         description: '¡Prepárate para divertirte con un rinoceronte suave, un elefante nostálgico que sabe cómo colarse en la cocina y un tigre caballeroso...!',
         amazonLink: 'https://amzn.to/47uP5b0'
+      },
+
+      {
+        name: 'Amigurumi De La Prehistoria: 14 proyectos de dinosaurios, mamuts, cavernícolas y otros muñecos de ganchillo',
+        imageUrl: 'https://m.media-amazon.com/images/I/91zNksJuLUL._SY385_.jpg',
+        description: 'Principiantes y expertos tejedores de ganchillo podrán crear estos sorprendentes Amigurumi. ',
+        amazonLink: 'https://amzn.to/423AnnY'
       },
 
     ]
