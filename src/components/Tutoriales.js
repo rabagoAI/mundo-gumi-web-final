@@ -3,7 +3,23 @@ import './Tutoriales.css'; // Importamos el archivo CSS
 
 // Datos de ejemplo para los tutoriales
 const tutorials = [
+  
+  { 
+    id: 32, 
+    title: 'Rosita Fresita Amigurumi Tutorial Paso a Paso 🌸', 
+    thumbnail: 'https://img.youtube.com/vi/dXYly87s4bo/mqdefault.jpg', 
+    description: 'Espero que este video te sea útil y te anime a crear tu propia muñequita 💕',
+    link: 'https://www.youtube.com/watch?v=dXYly87s4bo'
+  },
 
+
+  { 
+    id: 33, 
+    title: '🧙‍♀️ BAMBOLA BRUJITA AMIGURUMI A CROCHET ', 
+    thumbnail: 'https://img.youtube.com/vi/s4kaqKnhAvg/mqdefault.jpg', 
+    description: 'Bienvenidos a este su canal, donde aprenderan a tejer y crear amigurumis a crochet desde cero.',
+    link: 'https://www.youtube.com/watch?v=s4kaqKnhAvg'
+  },
 
   { 
     id: 25, 
@@ -255,6 +271,8 @@ const tutorials = [
     description: '🎃 ¡Bienvenidos a Patoys! 🎃. En este tutorial aprenderás a tejer un Vampiro Amigurumi a crochet, ideal para decorar en Halloween o regalar como detalle especial.',
     link: 'https://www.youtube.com/watch?v=uAqLS0M8OgM'
   },
+
+  
 
   
   
