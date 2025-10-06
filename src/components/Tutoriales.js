@@ -5,6 +5,14 @@ import './Tutoriales.css'; // Importamos el archivo CSS
 const tutorials = [
   
   { 
+    id: 34, 
+    title: '🎃Espantapájaros mini a crochet | Amigurumi colección de Halloween', 
+    thumbnail: 'https://img.youtube.com/vi/MxIW-0GOy28/mqdefault.jpg', 
+    description: '✨¡Hola!  Bienvenid@s a Patoys, en este video aprenderás a tejer un espantapájaros mini a crochet 👻🧶',
+    link: 'https://www.youtube.com/watch?v=MxIW-0GOy28'
+  },
+
+  { 
     id: 32, 
     title: 'Rosita Fresita Amigurumi Tutorial Paso a Paso 🌸', 
     thumbnail: 'https://img.youtube.com/vi/dXYly87s4bo/mqdefault.jpg', 

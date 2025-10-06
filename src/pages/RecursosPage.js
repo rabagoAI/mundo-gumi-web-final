@@ -11,6 +11,13 @@ const recommendedProducts = [
       // Puedes añadir más lanas aquí como otro objeto
 
       {
+        name: 'Katia Fama – Color: Turquesa Claro (857) – 100 g/aprox. 340 m lana',
+        imageUrl: 'https://m.media-amazon.com/images/I/516FYlY1oBL._AC_SX679_.jpg',
+        description: 'Katia FAMA es un hilo poliacrílico puro que viene en una impresionante gama de colores. Es suave en la piel y extremadamente versátil de trabajar.',
+        amazonLink: 'https://amzn.to/4pSdFtf' // ¡Pega aquí tu enlace de afiliado!
+      },
+
+      {
         name: 'Perlé - hilo algodón mercerizado, muy suave, hilo de tejer, hilo de ganchillo (50 gr/ovillo ; 12 colores)',
         imageUrl: 'https://m.media-amazon.com/images/I/71GNmVzWtWL._AC_SX679_.jpg',
         description: 'Experimenta la suavidad del hilo de algodón Perlé mercerizado de Lidia Crochet Tricot.',
