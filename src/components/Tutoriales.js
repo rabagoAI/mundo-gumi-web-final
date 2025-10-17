@@ -5,6 +5,15 @@ import './Tutoriales.css'; // Importamos el archivo CSS
 const tutorials = [
 
   { 
+    id: 39, 
+    title: 'Perro Salchicha a Crochet 🦴 Tutorial paso a paso - Amigurumi - Patrón Gratis 🤎', 
+    thumbnail: 'https://img.youtube.com/vi/HhU5skomyM8/mqdefault.jpg', 
+    description: '❤️ En este tutorial de crochet vamos a tejer un mini perro salchicha paso a paso 🐾 Ideal para regalar y decorar 🐕 ¡Es super tierno y rápido de hacer! 🐶✨. Si quieres el patrón escrito entra a la tienda de Etsy en la descripción',
+    link: 'https://www.youtube.com/watch?v=HhU5skomyM8'
+  },
+
+
+  { 
     id: 38, 
     title: 'LOBO FEROZ Patrón en Video Español e Ingles- Amigurumi Tutorial', 
     thumbnail: 'https://img.youtube.com/vi/QxeH04N4Kks/mqdefault.jpg', 
