@@ -3,7 +3,32 @@ import './Tutoriales.css'; // Importamos el archivo CSS
 
 // Datos de ejemplo para los tutoriales
 const tutorials = [
+
+  { 
+    id: 38, 
+    title: 'LOBO FEROZ Patrón en Video Español e Ingles- Amigurumi Tutorial', 
+    thumbnail: 'https://img.youtube.com/vi/QxeH04N4Kks/mqdefault.jpg', 
+    description: 'Aprende a tejer este precioso lobo feroz amigurumi con nuestro tutorial paso a paso.',
+    link: 'https://www.youtube.com/watch?v=QxeH04N4Kks'
+  },
+
+  { 
+    id: 37, 
+    title: 'Dinosaurio amigurumi - paso a paso', 
+    thumbnail: 'https://img.youtube.com/vi/2hcCm0zHyCI/mqdefault.jpg', 
+    description: 'Aprende a tejer este adorable dinosaurio amigurumi con nuestro tutorial paso a paso. ¡Perfecto para principiantes y amantes del crochet!',
+    link: 'https://www.youtube.com/watch?v=2hcCm0zHyCI'
+  },
+
   
+  { 
+    id: 35, 
+    title: '🧜‍♀️ Sirena Amigurumi en Lana Chenille 💕', 
+    thumbnail: 'https://img.youtube.com/vi/DgjOJ_w-OYA/mqdefault.jpg', 
+    description: '✨🧜‍♀️ Hoy tejemos una Sirena Amigurumi en lana chenille (plush), un proyecto suavecito y adorable que puedes adaptar al tamaño que prefieras',
+    link: 'https://www.youtube.com/watch?v=DgjOJ_w-OYA'
+  },
+
   { 
     id: 34, 
     title: '🎃Espantapájaros mini a crochet | Amigurumi colección de Halloween', 
